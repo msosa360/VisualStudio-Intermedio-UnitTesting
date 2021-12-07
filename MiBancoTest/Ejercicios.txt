@@ -1,0 +1,10 @@
+﻿ESCRIBIR UN TEST PARA CADA UNO DE LOS SIGUIENTES CASOS:
+------------------------------------------------------
+1. Cierre de Cuenta con saldo distinto a cero. 
+	Resultado Esperado: Excepcion
+2. Cierre de Cuenta con saldo igual a cero. 
+	Resultado Esperado: Estado Cuenta = Cerrado / FechaCierre = Today
+3. Establecer Saldo Inicio mayor a cero. 
+	Resultado Esperado: Saldo = saldo ingresado / Estado Cuenta = Abierta / FechaApertura = Today
+4. Extraer Importe Válido.
+	Resultado Esperado: Saldo = Saldo - importe extraido
